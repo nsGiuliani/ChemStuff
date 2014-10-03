@@ -1,0 +1,1200 @@
+10
+iteration 0
+Argon	0	1	0
+Argon	1	1	0
+Argon	2	1	0
+Argon	3	1	0
+Argon	4	1	0
+Argon	5	1	0
+Argon	6	1	0
+Argon	7	1	0
+Argon	8	1	0
+Argon	9	1	0
+10
+iteration 1
+Argon	12	2	0
+Argon	13	2	0
+Argon	14	2	0
+Argon	15	2	0
+Argon	16	2	0
+Argon	17	2	0
+Argon	18	2	0
+Argon	19	2	0
+Argon	20	2	0
+Argon	21	2	0
+10
+iteration 2
+Argon	24	3	0
+Argon	-5.267e+09	3	0
+Argon	-5.26764e+09	3	0
+Argon	-5.26765e+09	3	0
+Argon	-5.26765e+09	3	0
+Argon	-5.26765e+09	3	0
+Argon	-5.26765e+09	3	0
+Argon	-5.26765e+09	3	0
+Argon	-5.26765e+09	3	0
+Argon	-5.26765e+09	3	0
+10
+iteration 3
+Argon	36	4	0
+Argon	-1.5801e+10	4	0
+Argon	-2.10693e+10	4	0
+Argon	-2.63363e+10	4	0
+Argon	-3.16033e+10	4	0
+Argon	-3.16033e+10	4	0
+Argon	-4.34023e+12	4	0
+Argon	-1.73402e+13	4	0
+Argon	6.88454e+10	4	0
+Argon	-2.36551e+18	4	0
+10
+iteration 4
+Argon	48	5	0
+Argon	-3.1746e+10	5	0
+Argon	-4.76929e+10	5	0
+Argon	-6.36378e+10	5	0
+Argon	-7.95828e+10	5	0
+Argon	-8.49938e+10	5	0
+Argon	-8.70767e+12	5	0
+Argon	-3.47131e+13	5	0
+Argon	9.96707e+10	5	0
+Argon	-4.73101e+18	5	0
+10
+iteration 5
+Argon	60	6	0
+Argon	-5.31019e+10	6	0
+Argon	-8.51384e+10	6	0
+Argon	-1.17172e+11	6	0
+Argon	-1.49206e+11	6	0
+Argon	-1.65439e+11	6	0
+Argon	-1.31076e+13	6	0
+Argon	-5.21238e+13	6	0
+Argon	8.72082e+10	6	0
+Argon	-7.09652e+18	6	0
+10
+iteration 6
+Argon	72	7	0
+Argon	-7.98688e+10	7	0
+Argon	-1.33406e+11	7	0
+Argon	-1.8694e+11	7	0
+Argon	-2.40474e+11	7	0
+Argon	-2.72939e+11	7	0
+Argon	-1.75399e+13	7	0
+Argon	-6.95724e+13	7	0
+Argon	3.14579e+10	7	0
+Argon	-9.46203e+18	7	0
+10
+iteration 7
+Argon	84	8	0
+Argon	-1.12047e+11	8	0
+Argon	-1.92495e+11	8	0
+Argon	-2.7294e+11	8	0
+Argon	-3.53385e+11	8	0
+Argon	-4.07495e+11	8	0
+Argon	-2.20048e+13	8	0
+Argon	-8.70589e+13	8	0
+Argon	-6.75802e+10	8	0
+Argon	-1.18275e+19	8	0
+10
+iteration 8
+Argon	96	9	0
+Argon	-1.49636e+11	9	0
+Argon	-2.62407e+11	9	0
+Argon	-3.75173e+11	9	0
+Argon	-4.8794e+11	9	0
+Argon	-5.69105e+11	9	0
+Argon	-2.65021e+13	9	0
+Argon	-1.04583e+14	9	0
+Argon	-2.09906e+11	9	0
+Argon	-1.4193e+19	9	0
+10
+iteration 9
+Argon	8	10	0
+Argon	-1.92635e+11	10	0
+Argon	-3.4314e+11	10	0
+Argon	-4.93639e+11	10	0
+Argon	-6.44139e+11	10	0
+Argon	-7.57769e+11	10	0
+Argon	-3.10318e+13	10	0
+Argon	-1.22145e+14	10	0
+Argon	-3.9552e+11	10	0
+Argon	-1.65585e+19	10	0
+10
+iteration 10
+Argon	20	11	0
+Argon	-2.41046e+11	11	0
+Argon	-4.34695e+11	11	0
+Argon	-6.28339e+11	11	0
+Argon	-8.21982e+11	11	0
+Argon	-9.73489e+11	11	0
+Argon	-3.5594e+13	11	0
+Argon	-1.39746e+14	11	0
+Argon	-6.24421e+11	11	0
+Argon	-1.89241e+19	11	0
+10
+iteration 11
+Argon	32	12	0
+Argon	-2.94868e+11	12	0
+Argon	-5.37072e+11	12	0
+Argon	-7.79271e+11	12	0
+Argon	-1.02147e+12	12	0
+Argon	-1.21626e+12	12	0
+Argon	-4.01887e+13	12	0
+Argon	-1.57384e+14	12	0
+Argon	-8.9661e+11	12	0
+Argon	-2.12896e+19	12	0
+10
+iteration 12
+Argon	44	13	0
+Argon	-3.54101e+11	13	0
+Argon	-6.50272e+11	13	0
+Argon	-9.46435e+11	13	0
+Argon	-1.2426e+12	13	0
+Argon	-1.48609e+12	13	0
+Argon	-4.48159e+13	13	0
+Argon	-1.75059e+14	13	0
+Argon	-1.21209e+12	13	0
+Argon	-2.36551e+19	13	0
+10
+iteration 13
+Argon	56	14	0
+Argon	-4.18745e+11	14	0
+Argon	-7.74293e+11	14	0
+Argon	-1.12983e+12	14	0
+Argon	-1.48537e+12	14	0
+Argon	-1.78298e+12	14	0
+Argon	-4.94755e+13	14	0
+Argon	-1.92773e+14	14	0
+Argon	-1.57085e+12	14	0
+Argon	-2.60206e+19	14	0
+10
+iteration 14
+Argon	68	15	0
+Argon	-4.88799e+11	15	0
+Argon	-9.09136e+11	15	0
+Argon	-1.32946e+12	15	0
+Argon	-1.74979e+12	15	0
+Argon	-2.10692e+12	15	0
+Argon	-5.41676e+13	15	0
+Argon	-2.10525e+14	15	0
+Argon	-1.9729e+12	15	0
+Argon	-2.83861e+19	15	0
+10
+iteration 15
+Argon	80	16	0
+Argon	-5.64265e+11	16	0
+Argon	-1.0548e+12	16	0
+Argon	-1.54533e+12	16	0
+Argon	-2.03585e+12	16	0
+Argon	-2.45791e+12	16	0
+Argon	-5.88922e+13	16	0
+Argon	-2.28314e+14	16	0
+Argon	-2.41825e+12	16	0
+Argon	-3.07516e+19	16	0
+10
+iteration 16
+Argon	92	17	0
+Argon	-6.45142e+11	17	0
+Argon	-1.21129e+12	17	0
+Argon	-1.77742e+12	17	0
+Argon	-2.34356e+12	17	0
+Argon	-2.83596e+12	17	0
+Argon	-6.36492e+13	17	0
+Argon	-2.46142e+14	17	0
+Argon	-2.90687e+12	17	0
+Argon	-3.31171e+19	17	0
+10
+iteration 17
+Argon	4	18	0
+Argon	-7.31429e+11	18	0
+Argon	-1.3786e+12	18	0
+Argon	-2.02575e+12	18	0
+Argon	-2.67291e+12	18	0
+Argon	-3.24106e+12	18	0
+Argon	-6.84387e+13	18	0
+Argon	-2.64007e+14	18	0
+Argon	-3.43879e+12	18	0
+Argon	-3.54826e+19	18	0
+10
+iteration 18
+Argon	16	19	0
+Argon	-8.23128e+11	19	0
+Argon	-1.55673e+12	19	0
+Argon	-2.29032e+12	19	0
+Argon	-3.02391e+12	19	0
+Argon	-3.67322e+12	19	0
+Argon	-7.32606e+13	19	0
+Argon	-2.8191e+14	19	0
+Argon	-4.01399e+12	19	0
+Argon	-3.78481e+19	19	0
+10
+iteration 19
+Argon	28	20	0
+Argon	-9.20237e+11	20	0
+Argon	-1.74568e+12	20	0
+Argon	-2.57111e+12	20	0
+Argon	-3.39654e+12	20	0
+Argon	-4.13244e+12	20	0
+Argon	-7.81151e+13	20	0
+Argon	-2.99851e+14	20	0
+Argon	-4.63248e+12	20	0
+Argon	-4.02136e+19	20	0
+10
+iteration 20
+Argon	40	21	0
+Argon	-1.02276e+12	21	0
+Argon	-1.94546e+12	21	0
+Argon	-2.86814e+12	21	0
+Argon	-3.79083e+12	21	0
+Argon	-4.6187e+12	21	0
+Argon	-8.30019e+13	21	0
+Argon	-3.1783e+14	21	0
+Argon	-5.29426e+12	21	0
+Argon	-4.25791e+19	21	0
+10
+iteration 21
+Argon	52	22	0
+Argon	-1.13069e+12	22	0
+Argon	-2.15605e+12	22	0
+Argon	-3.1814e+12	22	0
+Argon	-4.20675e+12	22	0
+Argon	-5.13203e+12	22	0
+Argon	-8.79213e+13	22	0
+Argon	-3.35847e+14	22	0
+Argon	-5.99933e+12	22	0
+Argon	-4.49446e+19	22	0
+10
+iteration 22
+Argon	64	23	0
+Argon	-1.24403e+12	23	0
+Argon	-2.37747e+12	23	0
+Argon	-3.5109e+12	23	0
+Argon	-4.64432e+12	23	0
+Argon	-5.67241e+12	23	0
+Argon	-9.28731e+13	23	0
+Argon	-3.53901e+14	23	0
+Argon	-6.74769e+12	23	0
+Argon	-4.73101e+19	23	0
+10
+iteration 23
+Argon	76	24	0
+Argon	-1.36279e+12	24	0
+Argon	-2.60971e+12	24	0
+Argon	-3.85662e+12	24	0
+Argon	-5.10353e+12	24	0
+Argon	-6.23984e+12	24	0
+Argon	-9.78574e+13	24	0
+Argon	-3.71994e+14	24	0
+Argon	-7.53933e+12	24	0
+Argon	-4.96756e+19	24	0
+10
+iteration 24
+Argon	88	25	0
+Argon	-1.48695e+12	25	0
+Argon	-2.85277e+12	25	0
+Argon	-4.21858e+12	25	0
+Argon	-5.58439e+12	25	0
+Argon	-6.83433e+12	25	0
+Argon	-1.02874e+14	25	0
+Argon	-3.90124e+14	25	0
+Argon	-8.37426e+12	25	0
+Argon	-5.20412e+19	25	0
+10
+iteration 25
+Argon	0	26	0
+Argon	-1.61653e+12	26	0
+Argon	-3.10666e+12	26	0
+Argon	-4.59678e+12	26	0
+Argon	-6.08689e+12	26	0
+Argon	-7.45587e+12	26	0
+Argon	-1.07923e+14	26	0
+Argon	-4.08292e+14	26	0
+Argon	-9.25248e+12	26	0
+Argon	-5.44067e+19	26	0
+10
+iteration 26
+Argon	12	27	0
+Argon	-1.75151e+12	27	0
+Argon	-3.37136e+12	27	0
+Argon	-4.9912e+12	27	0
+Argon	-6.61104e+12	27	0
+Argon	-8.10447e+12	27	0
+Argon	-1.13005e+14	27	0
+Argon	-4.26499e+14	27	0
+Argon	-1.0174e+13	27	0
+Argon	-5.67722e+19	27	0
+10
+iteration 27
+Argon	24	28	0
+Argon	-1.89191e+12	28	0
+Argon	-3.64689e+12	28	0
+Argon	-5.40186e+12	28	0
+Argon	-7.15683e+12	28	0
+Argon	-8.78012e+12	28	0
+Argon	-1.18119e+14	28	0
+Argon	-4.44743e+14	28	0
+Argon	-1.11388e+13	28	0
+Argon	-5.91377e+19	28	0
+10
+iteration 28
+Argon	36	29	0
+Argon	-2.03772e+12	29	0
+Argon	-3.93324e+12	29	0
+Argon	-5.82875e+12	29	0
+Argon	-7.72426e+12	29	0
+Argon	-9.48283e+12	29	0
+Argon	-1.23266e+14	29	0
+Argon	-4.63025e+14	29	0
+Argon	-1.21469e+13	29	0
+Argon	-6.15032e+19	29	0
+10
+iteration 29
+Argon	48	30	0
+Argon	-2.18894e+12	30	0
+Argon	-4.23042e+12	30	0
+Argon	-6.27188e+12	30	0
+Argon	-8.31334e+12	30	0
+Argon	-1.02126e+13	30	0
+Argon	-1.28445e+14	30	0
+Argon	-4.81344e+14	30	0
+Argon	-1.31982e+13	30	0
+Argon	-6.38687e+19	30	0
+10
+iteration 30
+Argon	60	31	0
+Argon	-2.34557e+12	31	0
+Argon	-4.53841e+12	31	0
+Argon	-6.73123e+12	31	0
+Argon	-8.92406e+12	31	0
+Argon	-1.09694e+13	31	0
+Argon	-1.33656e+14	31	0
+Argon	-4.99702e+14	31	0
+Argon	-1.42929e+13	31	0
+Argon	-6.62342e+19	31	0
+10
+iteration 31
+Argon	72	32	0
+Argon	-2.50761e+12	32	0
+Argon	-4.85723e+12	32	0
+Argon	-7.20682e+12	32	0
+Argon	-9.55642e+12	32	0
+Argon	-1.17533e+13	32	0
+Argon	-1.389e+14	32	0
+Argon	-5.18097e+14	32	0
+Argon	-1.54308e+13	32	0
+Argon	-6.85997e+19	32	0
+10
+iteration 32
+Argon	84	33	0
+Argon	-2.67506e+12	33	0
+Argon	-5.18686e+12	33	0
+Argon	-7.69865e+12	33	0
+Argon	-1.02104e+13	33	0
+Argon	-1.25642e+13	33	0
+Argon	-1.44177e+14	33	0
+Argon	-5.36531e+14	33	0
+Argon	-1.66121e+13	33	0
+Argon	-7.09652e+19	33	0
+10
+iteration 33
+Argon	96	34	0
+Argon	-2.84792e+12	34	0
+Argon	-5.52732e+12	34	0
+Argon	-8.2067e+12	34	0
+Argon	-1.08861e+13	34	0
+Argon	-1.34022e+13	34	0
+Argon	-1.49486e+14	34	0
+Argon	-5.55002e+14	34	0
+Argon	-1.78366e+13	34	0
+Argon	-7.33307e+19	34	0
+10
+iteration 34
+Argon	8	35	0
+Argon	-3.0262e+12	35	0
+Argon	-5.87861e+12	35	0
+Argon	-8.73099e+12	35	0
+Argon	-1.15834e+13	35	0
+Argon	-1.42672e+13	35	0
+Argon	-1.54827e+14	35	0
+Argon	-5.73511e+14	35	0
+Argon	-1.91044e+13	35	0
+Argon	-7.56962e+19	35	0
+10
+iteration 35
+Argon	20	36	0
+Argon	-3.20988e+12	36	0
+Argon	-6.24071e+12	36	0
+Argon	-9.27151e+12	36	0
+Argon	-1.23023e+13	36	0
+Argon	-1.51593e+13	36	0
+Argon	-1.60201e+14	36	0
+Argon	-5.92058e+14	36	0
+Argon	-2.04155e+13	36	0
+Argon	-7.80617e+19	36	0
+10
+iteration 36
+Argon	32	37	0
+Argon	-3.39898e+12	37	0
+Argon	-6.61364e+12	37	0
+Argon	-9.82827e+12	37	0
+Argon	-1.30429e+13	37	0
+Argon	-1.60785e+13	37	0
+Argon	-1.65607e+14	37	0
+Argon	-6.10643e+14	37	0
+Argon	-2.17699e+13	37	0
+Argon	-8.04272e+19	37	0
+10
+iteration 37
+Argon	44	38	0
+Argon	-3.59349e+12	38	0
+Argon	-6.99738e+12	38	0
+Argon	-1.04013e+13	38	0
+Argon	-1.38051e+13	38	0
+Argon	-1.70247e+13	38	0
+Argon	-1.71046e+14	38	0
+Argon	-6.29266e+14	38	0
+Argon	-2.31675e+13	38	0
+Argon	-8.27928e+19	38	0
+10
+iteration 38
+Argon	56	39	0
+Argon	-3.7934e+12	39	0
+Argon	-7.39195e+12	39	0
+Argon	-1.09905e+13	39	0
+Argon	-1.4589e+13	39	0
+Argon	-1.79979e+13	39	0
+Argon	-1.76518e+14	39	0
+Argon	-6.47927e+14	39	0
+Argon	-2.46085e+13	39	0
+Argon	-8.51583e+19	39	0
+10
+iteration 39
+Argon	68	40	0
+Argon	-3.99873e+12	40	0
+Argon	-7.79735e+12	40	0
+Argon	-1.15959e+13	40	0
+Argon	-1.53945e+13	40	0
+Argon	-1.89982e+13	40	0
+Argon	-1.82021e+14	40	0
+Argon	-6.66625e+14	40	0
+Argon	-2.60928e+13	40	0
+Argon	-8.75238e+19	40	0
+10
+iteration 40
+Argon	80	41	0
+Argon	-4.20947e+12	41	0
+Argon	-8.21356e+12	41	0
+Argon	-1.22176e+13	41	0
+Argon	-1.62217e+13	41	0
+Argon	-2.00256e+13	41	0
+Argon	-1.87557e+14	41	0
+Argon	-6.85362e+14	41	0
+Argon	-2.76203e+13	41	0
+Argon	-8.98893e+19	41	0
+10
+iteration 41
+Argon	92	42	0
+Argon	-4.42562e+12	42	0
+Argon	-8.64059e+12	42	0
+Argon	-1.28555e+13	42	0
+Argon	-1.70705e+13	42	0
+Argon	-2.108e+13	42	0
+Argon	-1.93126e+14	42	0
+Argon	-7.04136e+14	42	0
+Argon	-2.91911e+13	42	0
+Argon	-9.22548e+19	42	0
+10
+iteration 42
+Argon	4	43	0
+Argon	-4.64719e+12	43	0
+Argon	-9.07845e+12	43	0
+Argon	-1.35097e+13	43	0
+Argon	-1.79409e+13	43	0
+Argon	-2.21615e+13	43	0
+Argon	-1.98727e+14	43	0
+Argon	-7.22948e+14	43	0
+Argon	-3.08052e+13	43	0
+Argon	-9.46203e+19	43	0
+10
+iteration 43
+Argon	16	44	0
+Argon	-4.87416e+12	44	0
+Argon	-9.52713e+12	44	0
+Argon	-1.41801e+13	44	0
+Argon	-1.8833e+13	44	0
+Argon	-2.327e+13	44	0
+Argon	-2.04361e+14	44	0
+Argon	-7.41798e+14	44	0
+Argon	-3.24626e+13	44	0
+Argon	-9.69858e+19	44	0
+10
+iteration 44
+Argon	28	45	0
+Argon	-5.10654e+12	45	0
+Argon	-9.98663e+12	45	0
+Argon	-1.48667e+13	45	0
+Argon	-1.97468e+13	45	0
+Argon	-2.44056e+13	45	0
+Argon	-2.10027e+14	45	0
+Argon	-7.60686e+14	45	0
+Argon	-3.41633e+13	45	0
+Argon	-9.93513e+19	45	0
+10
+iteration 45
+Argon	40	46	0
+Argon	-5.34434e+12	46	0
+Argon	-1.0457e+13	46	0
+Argon	-1.55695e+13	46	0
+Argon	-2.06821e+13	46	0
+Argon	-2.55682e+13	46	0
+Argon	-2.15725e+14	46	0
+Argon	-7.79612e+14	46	0
+Argon	-3.59073e+13	46	0
+Argon	-1.01717e+20	46	0
+10
+iteration 46
+Argon	52	47	0
+Argon	-5.58754e+12	47	0
+Argon	-1.09381e+13	47	0
+Argon	-1.62886e+13	47	0
+Argon	-2.16392e+13	47	0
+Argon	-2.67579e+13	47	0
+Argon	-2.21456e+14	47	0
+Argon	-7.98576e+14	47	0
+Argon	-3.76945e+13	47	0
+Argon	-1.04082e+20	47	0
+10
+iteration 47
+Argon	64	48	0
+Argon	-5.83616e+12	48	0
+Argon	-1.14301e+13	48	0
+Argon	-1.70239e+13	48	0
+Argon	-2.26178e+13	48	0
+Argon	-2.79747e+13	48	0
+Argon	-2.2722e+14	48	0
+Argon	-8.17577e+14	48	0
+Argon	-3.95251e+13	48	0
+Argon	-1.06448e+20	48	0
+10
+iteration 48
+Argon	76	49	0
+Argon	-6.09019e+12	49	0
+Argon	-1.19329e+13	49	0
+Argon	-1.77755e+13	49	0
+Argon	-2.36181e+13	49	0
+Argon	-2.92185e+13	49	0
+Argon	-2.33016e+14	49	0
+Argon	-8.36617e+14	49	0
+Argon	-4.13989e+13	49	0
+Argon	-1.08813e+20	49	0
+10
+iteration 49
+Argon	88	50	0
+Argon	-6.34963e+12	50	0
+Argon	-1.24465e+13	50	0
+Argon	-1.85433e+13	50	0
+Argon	-2.46401e+13	50	0
+Argon	-3.04894e+13	50	0
+Argon	-2.38844e+14	50	0
+Argon	-8.55694e+14	50	0
+Argon	-4.33161e+13	50	0
+Argon	-1.11179e+20	50	0
+10
+iteration 50
+Argon	0	51	0
+Argon	-6.61448e+12	51	0
+Argon	-1.29709e+13	51	0
+Argon	-1.93273e+13	51	0
+Argon	-2.56837e+13	51	0
+Argon	-3.17873e+13	51	0
+Argon	-2.44705e+14	51	0
+Argon	-8.74809e+14	51	0
+Argon	-4.52765e+13	51	0
+Argon	-1.13544e+20	51	0
+10
+iteration 51
+Argon	12	52	0
+Argon	-6.88474e+12	52	0
+Argon	-1.35062e+13	52	0
+Argon	-2.01275e+13	52	0
+Argon	-2.67489e+13	52	0
+Argon	-3.31122e+13	52	0
+Argon	-2.50598e+14	52	0
+Argon	-8.93962e+14	52	0
+Argon	-4.72802e+13	52	0
+Argon	-1.1591e+20	52	0
+10
+iteration 52
+Argon	24	53	0
+Argon	-7.16041e+12	53	0
+Argon	-1.40522e+13	53	0
+Argon	-2.0944e+13	53	0
+Argon	-2.78358e+13	53	0
+Argon	-3.44643e+13	53	0
+Argon	-2.56524e+14	53	0
+Argon	-9.13153e+14	53	0
+Argon	-4.93272e+13	53	0
+Argon	-1.18275e+20	53	0
+10
+iteration 53
+Argon	36	54	0
+Argon	-7.44149e+12	54	0
+Argon	-1.46091e+13	54	0
+Argon	-2.17767e+13	54	0
+Argon	-2.89444e+13	54	0
+Argon	-3.58433e+13	54	0
+Argon	-2.62483e+14	54	0
+Argon	-9.32382e+14	54	0
+Argon	-5.14174e+13	54	0
+Argon	-1.20641e+20	54	0
+10
+iteration 54
+Argon	48	55	0
+Argon	-7.72799e+12	55	0
+Argon	-1.51769e+13	55	0
+Argon	-2.26257e+13	55	0
+Argon	-3.00745e+13	55	0
+Argon	-3.72495e+13	55	0
+Argon	-2.68473e+14	55	0
+Argon	-9.51648e+14	55	0
+Argon	-5.3551e+13	55	0
+Argon	-1.23006e+20	55	0
+10
+iteration 55
+Argon	60	56	0
+Argon	-8.01989e+12	56	0
+Argon	-1.57554e+13	56	0
+Argon	-2.34909e+13	56	0
+Argon	-3.12263e+13	56	0
+Argon	-3.86827e+13	56	0
+Argon	-2.74496e+14	56	0
+Argon	-9.70953e+14	56	0
+Argon	-5.57278e+13	56	0
+Argon	-1.25372e+20	56	0
+10
+iteration 56
+Argon	72	57	0
+Argon	-8.31721e+12	57	0
+Argon	-1.63448e+13	57	0
+Argon	-2.43723e+13	57	0
+Argon	-3.23998e+13	57	0
+Argon	-4.01429e+13	57	0
+Argon	-2.80552e+14	57	0
+Argon	-9.90296e+14	57	0
+Argon	-5.7948e+13	57	0
+Argon	-1.27737e+20	57	0
+10
+iteration 57
+Argon	84	58	0
+Argon	-8.61993e+12	58	0
+Argon	-1.69449e+13	58	0
+Argon	-2.52699e+13	58	0
+Argon	-3.35949e+13	58	0
+Argon	-4.16302e+13	58	0
+Argon	-2.8664e+14	58	0
+Argon	-1.00968e+15	58	0
+Argon	-6.02114e+13	58	0
+Argon	-1.30103e+20	58	0
+10
+iteration 58
+Argon	96	59	0
+Argon	-8.92807e+12	59	0
+Argon	-1.7556e+13	59	0
+Argon	-2.61838e+13	59	0
+Argon	-3.48117e+13	59	0
+Argon	-4.31446e+13	59	0
+Argon	-2.92761e+14	59	0
+Argon	-1.02909e+15	59	0
+Argon	-6.25181e+13	59	0
+Argon	-1.32468e+20	59	0
+10
+iteration 59
+Argon	8	60	0
+Argon	-9.24162e+12	60	0
+Argon	-1.81778e+13	60	0
+Argon	-2.71139e+13	60	0
+Argon	-3.60501e+13	60	0
+Argon	-4.4686e+13	60	0
+Argon	-2.98914e+14	60	0
+Argon	-1.04855e+15	60	0
+Argon	-6.48681e+13	60	0
+Argon	-1.34834e+20	60	0
+10
+iteration 60
+Argon	20	61	0
+Argon	-9.56058e+12	61	0
+Argon	-1.88104e+13	61	0
+Argon	-2.80603e+13	61	0
+Argon	-3.73101e+13	61	0
+Argon	-4.62544e+13	61	0
+Argon	-3.05099e+14	61	0
+Argon	-1.06804e+15	61	0
+Argon	-6.72614e+13	61	0
+Argon	-1.37199e+20	61	0
+10
+iteration 61
+Argon	32	62	0
+Argon	-9.88495e+12	62	0
+Argon	-1.94539e+13	62	0
+Argon	-2.90228e+13	62	0
+Argon	-3.85918e+13	62	0
+Argon	-4.78499e+13	62	0
+Argon	-3.11317e+14	62	0
+Argon	-1.08758e+15	62	0
+Argon	-6.9698e+13	62	0
+Argon	-1.39565e+20	62	0
+10
+iteration 62
+Argon	44	63	0
+Argon	-1.02147e+13	63	0
+Argon	-2.01082e+13	63	0
+Argon	-3.00017e+13	63	0
+Argon	-3.98951e+13	63	0
+Argon	-4.94725e+13	63	0
+Argon	-3.17568e+14	63	0
+Argon	-1.10715e+15	63	0
+Argon	-7.21779e+13	63	0
+Argon	-1.4193e+20	63	0
+10
+iteration 63
+Argon	56	64	0
+Argon	-1.05499e+13	64	0
+Argon	-2.07733e+13	64	0
+Argon	-3.09967e+13	64	0
+Argon	-4.12201e+13	64	0
+Argon	-5.11221e+13	64	0
+Argon	-3.23851e+14	64	0
+Argon	-1.12675e+15	64	0
+Argon	-7.4701e+13	64	0
+Argon	-1.44296e+20	64	0
+10
+iteration 64
+Argon	68	65	0
+Argon	-1.08905e+13	65	0
+Argon	-2.14493e+13	65	0
+Argon	-3.2008e+13	65	0
+Argon	-4.25667e+13	65	0
+Argon	-5.27988e+13	65	0
+Argon	-3.30166e+14	65	0
+Argon	-1.1464e+15	65	0
+Argon	-7.72675e+13	65	0
+Argon	-1.46661e+20	65	0
+10
+iteration 65
+Argon	80	66	0
+Argon	-1.12365e+13	66	0
+Argon	-2.2136e+13	66	0
+Argon	-3.30355e+13	66	0
+Argon	-4.39349e+13	66	0
+Argon	-5.45026e+13	66	0
+Argon	-3.36514e+14	66	0
+Argon	-1.16608e+15	66	0
+Argon	-7.98772e+13	66	0
+Argon	-1.49027e+20	66	0
+10
+iteration 66
+Argon	92	67	0
+Argon	-1.1588e+13	67	0
+Argon	-2.28336e+13	67	0
+Argon	-3.40792e+13	67	0
+Argon	-4.53248e+13	67	0
+Argon	-5.62334e+13	67	0
+Argon	-3.42894e+14	67	0
+Argon	-1.1858e+15	67	0
+Argon	-8.25302e+13	67	0
+Argon	-1.51393e+20	67	0
+10
+iteration 67
+Argon	4	68	0
+Argon	-1.19448e+13	68	0
+Argon	-2.3542e+13	68	0
+Argon	-3.51392e+13	68	0
+Argon	-4.67364e+13	68	0
+Argon	-5.79912e+13	68	0
+Argon	-3.49307e+14	68	0
+Argon	-1.20556e+15	68	0
+Argon	-8.52265e+13	68	0
+Argon	-1.53758e+20	68	0
+10
+iteration 68
+Argon	16	69	0
+Argon	-1.2307e+13	69	0
+Argon	-2.42613e+13	69	0
+Argon	-3.62154e+13	69	0
+Argon	-4.81696e+13	69	0
+Argon	-5.97761e+13	69	0
+Argon	-3.55752e+14	69	0
+Argon	-1.22536e+15	69	0
+Argon	-8.79661e+13	69	0
+Argon	-1.56124e+20	69	0
+10
+iteration 69
+Argon	28	70	0
+Argon	-1.26747e+13	70	0
+Argon	-2.49913e+13	70	0
+Argon	-3.73079e+13	70	0
+Argon	-4.96244e+13	70	0
+Argon	-6.15881e+13	70	0
+Argon	-3.6223e+14	70	0
+Argon	-1.24519e+15	70	0
+Argon	-9.0749e+13	70	0
+Argon	-1.58489e+20	70	0
+10
+iteration 70
+Argon	40	71	0
+Argon	-1.30478e+13	71	0
+Argon	-2.57322e+13	71	0
+Argon	-3.84165e+13	71	0
+Argon	-5.11009e+13	71	0
+Argon	-6.34271e+13	71	0
+Argon	-3.6874e+14	71	0
+Argon	-1.26507e+15	71	0
+Argon	-9.35752e+13	71	0
+Argon	-1.60855e+20	71	0
+10
+iteration 71
+Argon	52	72	0
+Argon	-1.34263e+13	72	0
+Argon	-2.64839e+13	72	0
+Argon	-3.95414e+13	72	0
+Argon	-5.2599e+13	72	0
+Argon	-6.52931e+13	72	0
+Argon	-3.75283e+14	72	0
+Argon	-1.28498e+15	72	0
+Argon	-9.64446e+13	72	0
+Argon	-1.6322e+20	72	0
+10
+iteration 72
+Argon	64	73	0
+Argon	-1.38101e+13	73	0
+Argon	-2.72464e+13	73	0
+Argon	-4.06826e+13	73	0
+Argon	-5.41188e+13	73	0
+Argon	-6.71863e+13	73	0
+Argon	-3.81858e+14	73	0
+Argon	-1.30493e+15	73	0
+Argon	-9.93574e+13	73	0
+Argon	-1.65586e+20	73	0
+10
+iteration 73
+Argon	76	74	0
+Argon	-1.41995e+13	74	0
+Argon	-2.80197e+13	74	0
+Argon	-4.18399e+13	74	0
+Argon	-5.56602e+13	74	0
+Argon	-6.91064e+13	74	0
+Argon	-3.88466e+14	74	0
+Argon	-1.32491e+15	74	0
+Argon	-1.02313e+14	74	0
+Argon	-1.67951e+20	74	0
+10
+iteration 74
+Argon	88	75	0
+Argon	-1.45942e+13	75	0
+Argon	-2.88039e+13	75	0
+Argon	-4.30136e+13	75	0
+Argon	-5.72232e+13	75	0
+Argon	-7.10537e+13	75	0
+Argon	-3.95106e+14	75	0
+Argon	-1.34494e+15	75	0
+Argon	-1.05313e+14	75	0
+Argon	-1.70317e+20	75	0
+10
+iteration 75
+Argon	0	76	0
+Argon	-1.49943e+13	76	0
+Argon	-2.95989e+13	76	0
+Argon	-4.42034e+13	76	0
+Argon	-5.88079e+13	76	0
+Argon	-7.3028e+13	76	0
+Argon	-4.01778e+14	76	0
+Argon	-1.365e+15	76	0
+Argon	-1.08355e+14	76	0
+Argon	-1.72682e+20	76	0
+10
+iteration 76
+Argon	12	77	0
+Argon	-1.53998e+13	77	0
+Argon	-3.04047e+13	77	0
+Argon	-4.54095e+13	77	0
+Argon	-6.04143e+13	77	0
+Argon	-7.50293e+13	77	0
+Argon	-4.08483e+14	77	0
+Argon	-1.3851e+15	77	0
+Argon	-1.11441e+14	77	0
+Argon	-1.75048e+20	77	0
+10
+iteration 77
+Argon	24	78	0
+Argon	-1.58108e+13	78	0
+Argon	-3.12213e+13	78	0
+Argon	-4.66318e+13	78	0
+Argon	-6.20422e+13	78	0
+Argon	-7.70577e+13	78	0
+Argon	-4.1522e+14	78	0
+Argon	-1.40524e+15	78	0
+Argon	-1.1457e+14	78	0
+Argon	-1.77413e+20	78	0
+10
+iteration 78
+Argon	36	79	0
+Argon	-1.62271e+13	79	0
+Argon	-3.20487e+13	79	0
+Argon	-4.78703e+13	79	0
+Argon	-6.36919e+13	79	0
+Argon	-7.91131e+13	79	0
+Argon	-4.2199e+14	79	0
+Argon	-1.42541e+15	79	0
+Argon	-1.17743e+14	79	0
+Argon	-1.79779e+20	79	0
+10
+iteration 79
+Argon	48	80	0
+Argon	-1.66489e+13	80	0
+Argon	-3.2887e+13	80	0
+Argon	-4.91251e+13	80	0
+Argon	-6.53631e+13	80	0
+Argon	-8.11957e+13	80	0
+Argon	-4.28793e+14	80	0
+Argon	-1.44563e+15	80	0
+Argon	-1.20959e+14	80	0
+Argon	-1.82144e+20	80	0
+10
+iteration 80
+Argon	60	81	0
+Argon	-1.70761e+13	81	0
+Argon	-3.37361e+13	81	0
+Argon	-5.03961e+13	81	0
+Argon	-6.70561e+13	81	0
+Argon	-8.33052e+13	81	0
+Argon	-4.35628e+14	81	0
+Argon	-1.46588e+15	81	0
+Argon	-1.24218e+14	81	0
+Argon	-1.8451e+20	81	0
+10
+iteration 81
+Argon	72	82	0
+Argon	-1.75087e+13	82	0
+Argon	-3.4596e+13	82	0
+Argon	-5.16833e+13	82	0
+Argon	-6.87706e+13	82	0
+Argon	-8.54418e+13	82	0
+Argon	-4.42495e+14	82	0
+Argon	-1.48617e+15	82	0
+Argon	-1.2752e+14	82	0
+Argon	-1.86875e+20	82	0
+10
+iteration 82
+Argon	84	83	0
+Argon	-1.79467e+13	83	0
+Argon	-3.54668e+13	83	0
+Argon	-5.29868e+13	83	0
+Argon	-7.05068e+13	83	0
+Argon	-8.76055e+13	83	0
+Argon	-4.49395e+14	83	0
+Argon	-1.50649e+15	83	0
+Argon	-1.30866e+14	83	0
+Argon	-1.89241e+20	83	0
+10
+iteration 83
+Argon	96	84	0
+Argon	-1.83901e+13	84	0
+Argon	-3.63483e+13	84	0
+Argon	-5.43065e+13	84	0
+Argon	-7.22647e+13	84	0
+Argon	-8.97962e+13	84	0
+Argon	-4.56327e+14	84	0
+Argon	-1.52686e+15	84	0
+Argon	-1.34255e+14	84	0
+Argon	-1.91606e+20	84	0
+10
+iteration 84
+Argon	8	85	0
+Argon	-1.88389e+13	85	0
+Argon	-3.72407e+13	85	0
+Argon	-5.56424e+13	85	0
+Argon	-7.40442e+13	85	0
+Argon	-9.2014e+13	85	0
+Argon	-4.63292e+14	85	0
+Argon	-1.54726e+15	85	0
+Argon	-1.37687e+14	85	0
+Argon	-1.93972e+20	85	0
+10
+iteration 85
+Argon	20	86	0
+Argon	-1.92931e+13	86	0
+Argon	-3.81439e+13	86	0
+Argon	-5.69946e+13	86	0
+Argon	-7.58453e+13	86	0
+Argon	-9.42588e+13	86	0
+Argon	-4.70289e+14	86	0
+Argon	-1.5677e+15	86	0
+Argon	-1.41162e+14	86	0
+Argon	-1.96337e+20	86	0
+10
+iteration 86
+Argon	32	87	0
+Argon	-1.97528e+13	87	0
+Argon	-3.90579e+13	87	0
+Argon	-5.8363e+13	87	0
+Argon	-7.76681e+13	87	0
+Argon	-9.65307e+13	87	0
+Argon	-4.77318e+14	87	0
+Argon	-1.58818e+15	87	0
+Argon	-1.44681e+14	87	0
+Argon	-1.98703e+20	87	0
+10
+iteration 87
+Argon	44	88	0
+Argon	-2.02178e+13	88	0
+Argon	-3.99828e+13	88	0
+Argon	-5.97476e+13	88	0
+Argon	-7.95125e+13	88	0
+Argon	-9.88297e+13	88	0
+Argon	-4.8438e+14	88	0
+Argon	-1.6087e+15	88	0
+Argon	-1.48243e+14	88	0
+Argon	-2.01068e+20	88	0
+10
+iteration 88
+Argon	56	89	0
+Argon	-2.06883e+13	89	0
+Argon	-4.09184e+13	89	0
+Argon	-6.11485e+13	89	0
+Argon	-8.13786e+13	89	0
+Argon	-1.01156e+14	89	0
+Argon	-4.91475e+14	89	0
+Argon	-1.62925e+15	89	0
+Argon	-1.51848e+14	89	0
+Argon	-2.03434e+20	89	0
+10
+iteration 89
+Argon	68	90	0
+Argon	-2.11642e+13	90	0
+Argon	-4.18649e+13	90	0
+Argon	-6.25656e+13	90	0
+Argon	-8.32663e+13	90	0
+Argon	-1.03509e+14	90	0
+Argon	-4.98602e+14	90	0
+Argon	-1.64985e+15	90	0
+Argon	-1.55497e+14	90	0
+Argon	-2.05799e+20	90	0
+10
+iteration 90
+Argon	80	91	0
+Argon	-2.16455e+13	91	0
+Argon	-4.28222e+13	91	0
+Argon	-6.39989e+13	91	0
+Argon	-8.51756e+13	91	0
+Argon	-1.05889e+14	91	0
+Argon	-5.05762e+14	91	0
+Argon	-1.67048e+15	91	0
+Argon	-1.59189e+14	91	0
+Argon	-2.08165e+20	91	0
+10
+iteration 91
+Argon	92	92	0
+Argon	-2.21322e+13	92	0
+Argon	-4.37904e+13	92	0
+Argon	-6.54485e+13	92	0
+Argon	-8.71066e+13	92	0
+Argon	-1.08296e+14	92	0
+Argon	-5.12954e+14	92	0
+Argon	-1.69114e+15	92	0
+Argon	-1.62924e+14	92	0
+Argon	-2.1053e+20	92	0
+10
+iteration 92
+Argon	4	93	0
+Argon	-2.26243e+13	93	0
+Argon	-4.47693e+13	93	0
+Argon	-6.69143e+13	93	0
+Argon	-8.90593e+13	93	0
+Argon	-1.1073e+14	93	0
+Argon	-5.20178e+14	93	0
+Argon	-1.71185e+15	93	0
+Argon	-1.66703e+14	93	0
+Argon	-2.12896e+20	93	0
+10
+iteration 93
+Argon	16	94	0
+Argon	-2.31218e+13	94	0
+Argon	-4.57591e+13	94	0
+Argon	-6.83963e+13	94	0
+Argon	-9.10336e+13	94	0
+Argon	-1.13191e+14	94	0
+Argon	-5.27435e+14	94	0
+Argon	-1.73259e+15	94	0
+Argon	-1.70524e+14	94	0
+Argon	-2.15261e+20	94	0
+10
+iteration 94
+Argon	28	95	0
+Argon	-2.36247e+13	95	0
+Argon	-4.67597e+13	95	0
+Argon	-6.98946e+13	95	0
+Argon	-9.30295e+13	95	0
+Argon	-1.1568e+14	95	0
+Argon	-5.34724e+14	95	0
+Argon	-1.75338e+15	95	0
+Argon	-1.7439e+14	95	0
+Argon	-2.17627e+20	95	0
+10
+iteration 95
+Argon	40	96	0
+Argon	-2.41331e+13	96	0
+Argon	-4.77711e+13	96	0
+Argon	-7.14091e+13	96	0
+Argon	-9.50471e+13	96	0
+Argon	-1.18195e+14	96	0
+Argon	-5.42046e+14	96	0
+Argon	-1.77419e+15	96	0
+Argon	-1.78298e+14	96	0
+Argon	-2.19992e+20	96	0
+10
+iteration 96
+Argon	52	97	0
+Argon	-2.46468e+13	97	0
+Argon	-4.87934e+13	97	0
+Argon	-7.29398e+13	97	0
+Argon	-9.70863e+13	97	0
+Argon	-1.20738e+14	97	0
+Argon	-5.494e+14	97	0
+Argon	-1.79505e+15	97	0
+Argon	-1.8225e+14	97	0
+Argon	-2.22358e+20	97	0
+10
+iteration 97
+Argon	64	98	0
+Argon	-2.5166e+13	98	0
+Argon	-4.98264e+13	98	0
+Argon	-7.44868e+13	98	0
+Argon	-9.91471e+13	98	0
+Argon	-1.23307e+14	98	0
+Argon	-5.56787e+14	98	0
+Argon	-1.81595e+15	98	0
+Argon	-1.86245e+14	98	0
+Argon	-2.24723e+20	98	0
+10
+iteration 98
+Argon	76	99	0
+Argon	-2.56906e+13	99	0
+Argon	-5.08703e+13	99	0
+Argon	-7.605e+13	99	0
+Argon	-1.0123e+14	99	0
+Argon	-1.25904e+14	99	0
+Argon	-5.64206e+14	99	0
+Argon	-1.83688e+15	99	0
+Argon	-1.90283e+14	99	0
+Argon	-2.27089e+20	99	0
+10
+iteration 99
+Argon	88	0	0
+Argon	-2.62206e+13	0	0
+Argon	-5.1925e+13	0	0
+Argon	-7.76294e+13	0	0
+Argon	-1.03334e+14	0	0
+Argon	-1.28527e+14	0	0
+Argon	-5.71658e+14	0	0
+Argon	-1.85785e+15	0	0
+Argon	-1.94364e+14	0	0
+Argon	-2.29454e+20	0	0
