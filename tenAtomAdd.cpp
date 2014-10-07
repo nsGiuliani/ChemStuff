@@ -43,22 +43,22 @@ int main() {
 			y= atoms[k].getyCoor() + atoms[k].getyVel();
 			z=  atoms[k].getzCoor() + atoms[k].getzVel();
 			if(x >= box){
-				x -=box;
+				x =x % box;
 			}
 			if(x <0) {
-				x +=box;
+				x =x % box + box;
 			}
 			if(y >= box){
-				y -=box;
+				y = y % box;
 			}
 			if(y <0) {
-				y +=box;
+				y =y % box +box;
 			}
 			if(z >= box){
-				z -=box;
+				z =z % box;
 			}
 			if(z <0) {
-				z +=box;
+				z =z % box + box;
 			}
 			atoms[k].set_Coor(x,y,z);
 			//find the minimum distance to other atoms and update vel
