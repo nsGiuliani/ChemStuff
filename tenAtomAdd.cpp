@@ -132,11 +132,13 @@ int main() {
 						dz =atoms[l].getzCoor()-atoms[k].getzCoor()+box;
 					}
 					// input code here for updating the velocity
-					Fx = (24*E*O*O*O*O*O*O*dx*(2*O*O*O*O*O*O/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)
+					double D = dx*dx+dy*dy+dz*dz;
+					double o_6= O*O*O*O*O*O;
+					Fx = (24*E*o_6*dx*(2*o_6/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)
 						*(dx*dx+dy*dy+dz*dz))+1/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz))));
-					Fy = (24*E*O*O*O*O*O*O*dy*(2*O*O*O*O*O*O/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)
+					Fy = (24*E*o_6*dy*(2*o_6/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)
 						*(dx*dx+dy*dy+dz*dz))+1/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz))));					
-					Fz = (24*E*O*O*O*O*O*O*dz*(2*O*O*O*O*O*O/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)
+					Fz = (24*E*o_6*dz*(2*o_6/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)
 						*(dx*dx+dy*dy+dz*dz))+1/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz))));
 					x= atoms[k].getxVel()+Fx/atoms[k].getMass();
 					y= atoms[k].getyVel() + Fy/atoms[k].getMass();
