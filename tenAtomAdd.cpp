@@ -43,22 +43,22 @@ int main() {
 			y= atoms[k].getyCoor() + atoms[k].getyVel();
 			z=  atoms[k].getzCoor() + atoms[k].getzVel();
 			if(x >= box){
-				x =x % box;
+				x =fmod(x, box);
 			}
 			if(x <0) {
-				x =x % box + box;
+				x =fmod(x, box) + box;
 			}
 			if(y >= box){
-				y = y % box;
+				y = fmod(y, box);
 			}
 			if(y <0) {
-				y =y % box +box;
+				y =fmod(y, box) +box;
 			}
 			if(z >= box){
-				z =z % box;
+				z =fmod(z, box);
 			}
 			if(z <0) {
-				z =z % box + box;
+				z =fmod(z, box) + box;
 			}
 			atoms[k].set_Coor(x,y,z);
 			//find the minimum distance to other atoms and update vel
@@ -133,13 +133,13 @@ int main() {
 					}
 					// input code here for updating the velocity
 					double D = dx*dx+dy*dy+dz*dz;
+					double D_7= (dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)
+						*(dx*dx+dy*dy+dz*dz);
+					double D_4 = (dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz);
 					double o_6= O*O*O*O*O*O;
-					Fx = (24*E*o_6*dx*(2*o_6/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)
-						*(dx*dx+dy*dy+dz*dz))+1/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz))));
-					Fy = (24*E*o_6*dy*(2*o_6/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)
-						*(dx*dx+dy*dy+dz*dz))+1/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz))));					
-					Fz = (24*E*o_6*dz*(2*o_6/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)
-						*(dx*dx+dy*dy+dz*dz))+1/((dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz)*(dx*dx+dy*dy+dz*dz))));
+					Fx = (24*E*o_6*dx*(2*o_6/(D_7)+1/(D_4)));
+					Fy = (24*E*o_6*dy*(2*o_6/(D_7)+1/(D_4)));					
+					Fz = (24*E*o_6*dz*(2*o_6/(D_7)+1/(D_4)));
 					x= atoms[k].getxVel()+Fx/atoms[k].getMass();
 					y= atoms[k].getyVel() + Fy/atoms[k].getMass();
 					z=  atoms[k].getzVel() + Fz/atoms[k].getMass();
