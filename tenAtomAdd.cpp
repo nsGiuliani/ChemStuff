@@ -19,15 +19,15 @@ int main() {
 	double dx=0.0;
 	double dy=0.0;
 	double dz=0.0;
-	double box =1000;
+	double box =727;
 	double E = 1.712*(.000000000000000000001);
-	double O = 342;
+	double O = 3.4*(.0000000001);
 	double Fx;
 	double Fy;
 	double Fz;
 	srand(time(0));
 	for(double i =0; i<10; i++) {
-		atoms.push_back(Atom(39.948,fmod(rand(),box),fmod(rand(),box),fmod(rand(),box),fmod(rand(),10)-5,fmod(rand(),10)-5,fmod(rand(),10)-5));
+		atoms.push_back(Atom(39.948,fmod(rand(),box),fmod(rand(),box),fmod(rand(),box),fmod(rand(),50)-25,fmod(rand(),50)-25,fmod(rand(),50)-25));
 	}
 	ofstream fout;
 	fout.open("test3.xyz");
