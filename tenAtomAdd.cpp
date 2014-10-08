@@ -25,13 +25,13 @@ int main() {
 	double Fx;
 	double Fy;
 	double Fz;
+	srand(time(0));
 	for(double i =0; i<10; i++) {
-		atoms.push_back(Atom(39.948,i,i,0,12.0,1.0,0.0));
+		atoms.push_back(Atom(39.948,fmod(rand(),box),fmod(rand(),box),fmod(rand(),box),fmod(rand(),10)-5,fmod(rand(),10)-5,fmod(rand(),10)-5));
 	}
 	ofstream fout;
 	fout.open("test3.xyz");
-
-	for (int i=0; i<10; i++ ) {
+	for (int i=0; i<10000; i++ ) {
 		fout << "10" << endl;
 		fout << "iteration " << i << endl;
 		for (int k=0; k<10; k++) {
