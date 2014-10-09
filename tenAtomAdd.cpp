@@ -64,10 +64,7 @@ int main() {
 			//find the minimum distance to other atoms and update vel
 			for (int l = 0; l<10;l++){
 				double min = 1000000000;
-				if (l==k) {
-					break;
-				}
-				else{
+				if(l != k){
 					temp = (atoms[l].getxCoor()-atoms[k].getxCoor())*(atoms[l].getxCoor()-atoms[k].getxCoor())
 						+(atoms[l].getyCoor()-atoms[k].getyCoor())*(atoms[l].getyCoor()-atoms[k].getyCoor())
 						+ (atoms[l].getzCoor()-atoms[k].getzCoor())*(atoms[l].getzCoor()-atoms[k].getzCoor());
