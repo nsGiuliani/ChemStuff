@@ -45,9 +45,9 @@ int main() {
 		}
 		for (int k=0; k<numOfAtoms; k++) { //k is the atom which is being updated
 			//update the coordinates and make sure they are in the box
-			x= atoms[k].getxCoor()+atoms[k].getxVel();
-			y= atoms[k].getyCoor() + atoms[k].getyVel();
-			z=  atoms[k].getzCoor() + atoms[k].getzVel();
+			x= atoms[k].getxCoor()+atoms[k].getxVel()*timeStep;
+			y= atoms[k].getyCoor() + atoms[k].getyVel()*timeStep;
+			z=  atoms[k].getzCoor() + atoms[k].getzVel()*timeStep;
 			if(x >= box){
 				x =fmod(x, box);
 			}
