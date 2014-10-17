@@ -27,8 +27,12 @@ int main() {
 	double Fz;
 	int numOfAtoms=10;
 	int iterations = 5000;
-	double timeStep = .0000000000001;
+	double timeStep = .000000000001;
 	double ang = 0.0000000001;
+	double ePot = 0;
+	double eKin = 0;
+	double eTot1;
+	double eTot2;
 
 	srand(time(0));
 
@@ -40,6 +44,8 @@ int main() {
 	fout.open("10Atom.xyz");
 	//print to .xyz file
 	for (int i=0; i<iterations; i++ ) {
+		ePot = 0;
+		eKin = 0;
 		fout << numOfAtoms << endl;
 		fout << "iteration " << i << endl;
 		for (int k=0; k<numOfAtoms; k++) {
@@ -154,13 +160,18 @@ int main() {
 					y= atoms[k].getyVel() + (Fy/atoms[k].getMass())*timeStep;
 					z= atoms[k].getzVel() + (Fz/atoms[k].getMass())*timeStep;
 					atoms[k].set_Vel(x,y,z);
-									
+					ePot += 4*E*(pow((sig/sqrt(dist)),12)-((sig/sqrt(dist)),6));
 				}		
 																	
 			}
+			eKin += .5*atoms[k].getMass()*(sqrt(atoms[k].getxVel()*atoms[k].getxVel()+atoms[k].getyVel()*atoms[k].getyVel()+atoms[k].getzVel()*atoms[k].getzVel()));
 
 		}
-		
+		eTot1 = eKin + ePot;
+		eTot2 = (eKin + ePot)/1000*6.02*pow(10,23);
+		if (i%100 ==0) {
+			printf("%d  %4.16g        %4.16g \n",i, eTot1, eTot2);
+		}
 	}
 
 	return 0;
