@@ -36,11 +36,33 @@ int main() {
 
 	srand(time(0));
 
+	//make a box
+	ofstream fout;
+	fout.open("box.xyz");
+	fout << 12*box << endl;
+	fout << "box " << endl;
+	for (int b =0; b<box; b++) {
+		
+		fout<<"box   "<< b <<"	"<< 0 << "	"<< 0 << endl;
+		fout<<"box   "<< 0 <<"	"<< b << "	"<< 0 << endl;
+		fout<<"box   "<< 0 <<"	"<< 0 << "	"<< b << endl;
+		fout<<"box   "<< box <<"	"<< b << "	"<< 0 << endl;
+		fout<<"box   "<< box <<"	"<< 0 << "	"<< b << endl;
+		fout<<"box   "<< b <<"	"<< box << "	"<< 0 << endl;
+		fout<<"box   "<< 0 <<"	"<< box << "	"<< b << endl;
+		fout<<"box   "<< b <<"	"<< 0 << "	"<< box << endl;
+		fout<<"box   "<< 0 <<"	"<< b << "	"<< box << endl;
+		fout<<"box   "<< box <<"	"<< box << "	"<< b << endl;
+		fout<<"box   "<< b <<"	"<< box << "	"<< box << endl;
+		fout<<"box   "<< box <<"	"<< b << "	"<< box << endl;
+	}
+	fout.close();
+
 	//set initial positions and velocities for atoms
 	for(double i =0; i<numOfAtoms; i++) {
 		atoms.push_back(Atom(39.948*1.66053892 * pow(10,-27),fmod(rand(),box),fmod(rand(),box),fmod(rand(),box),fmod(rand(),500)-250,fmod(rand(),500)-250,fmod(rand(),500)-250));
 	}
-	ofstream fout;
+	//ofstream fout;
 	fout.open("10Atom.xyz");
 	//print to .xyz file
 	for (int i=0; i<iterations; i++ ) {
