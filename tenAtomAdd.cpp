@@ -19,7 +19,7 @@ int main() {
 	double dx=0.0;
 	double dy=0.0;
 	double dz=0.0;
-	double box =74;
+	double box =0;
 	double E = 1.712*(.000000000000000000001);
 	double sig = 3.4*(.0000000001);
 	double Fx;
@@ -27,6 +27,7 @@ int main() {
 	double Fz;
 	int numOfAtoms=10;
 	int iterations = 50000;
+	double temperature = 286;
 	double timeStep = .00000000000001;
 	double ang = 0.0000000001;
 	double ePot = 0;
@@ -35,6 +36,13 @@ int main() {
 	double eTot2;
 
 	srand(time(0));
+
+	double n = numOfAtoms/(6.022*pow(10, 23));
+	double R = .08206;
+	box = n*R*temperature;
+	box *= .001;
+	box = pow(box, 1/3.);
+	box /= ang;
 
 	//make a box
 	ofstream fout;
