@@ -19,15 +19,15 @@ int main() {
 	double dx=0.0;
 	double dy=0.0;
 	double dz=0.0;
-	double box =727;
+	double box =74;
 	double E = 1.712*(.000000000000000000001);
 	double sig = 3.4*(.0000000001);
 	double Fx;
 	double Fy;
 	double Fz;
 	int numOfAtoms=10;
-	int iterations = 5000;
-	double timeStep = .000000000001;
+	int iterations = 50000;
+	double timeStep = .00000000000001;
 	double ang = 0.0000000001;
 	double ePot = 0;
 	double eKin = 0;
