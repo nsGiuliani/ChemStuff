@@ -29,7 +29,6 @@ void simulation(int numAtoms, double temperature) {
 	double Fz;
 	int numOfAtoms=10;
 	int iterations = 50000;
-	double temperature = 286;
 	double timeStep = .00000000000001;
 	double ang = 0.0000000001;
 	double ePot = 0;
@@ -46,13 +45,6 @@ void simulation(int numAtoms, double temperature) {
 	box /= ang; //convert to angstroms
 
 	srand(time(0));
-
-	double n = numOfAtoms/(6.022*pow(10, 23));
-	double R = .08206;
-	box = n*R*temperature;
-	box *= .001;
-	box = pow(box, 1/3.);
-	box /= ang;
 
 	//make a box
 	ofstream fout;
