@@ -182,7 +182,7 @@ int main() {
 					y= atoms[k].getyVel() + (Fy/atoms[k].getMass())*timeStep;
 					z= atoms[k].getzVel() + (Fz/atoms[k].getMass())*timeStep;
 					atoms[k].set_Vel(x,y,z);
-					ePot += 4*E*(pow((sig/sqrt(dist)),12)-((sig/sqrt(dist)),6));
+					ePot += 4*E*(pow((sig/sqrt(dist)),12)-pow((sig/sqrt(dist)),6));
 				}		
 																	
 			}
