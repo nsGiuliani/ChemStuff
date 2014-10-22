@@ -9,7 +9,7 @@
 
 using namespace std;
 
-int main() {
+void simulation(int numAtoms, double temperature) {
 
 	vector<Atom> atoms;
 	double x;
@@ -19,7 +19,7 @@ int main() {
 	double dx=0.0;
 	double dy=0.0;
 	double dz=0.0;
-	double box =74;
+	double box;
 	double E = 1.712*(.000000000000000000001);
 	double sig = 3.4*(.0000000001);
 	double Fx;
@@ -33,6 +33,14 @@ int main() {
 	double eKin = 0;
 	double eTot1;
 	double eTot2;
+	
+	//calculate the volume of the box using PV = nRT (P = 1)
+	double n = numAtoms/(6.022*pow(10, 23)); //calculate the mols of atoms
+	double R = .08206; //gas constant
+	box = n*R*temperature; //calculate the volume of the box in liters
+	box *= .001; //convert the volume of the box from liters to meters cubed
+	box = pow(box, 1/3.); //take the cube root to find the length of one side of the box
+	box /= ang; //convert to angstroms
 
 	srand(time(0));
 
@@ -195,6 +203,18 @@ int main() {
 			printf("%d  %4.16g        %4.16g \n",i, eTot1, eTot2);
 		}
 	}
+}
 
+int main() {
+	
+	double numberOfAtoms;
+	double temp;
+
+	cout << "Enter the number of atoms: ";
+	cin >> numberOfAtoms;
+	cout << "Enter the temperature: ";
+	cin >> temp;
+
+	simulation(numberOfAtoms, temp);
 	return 0;
 }
