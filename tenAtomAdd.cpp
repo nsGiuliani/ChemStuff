@@ -27,7 +27,6 @@ void simulation(int numAtoms, double temperature) {
 	double Fx;
 	double Fy;
 	double Fz;
-	int numOfAtoms=10;
 	int iterations = 50000;
 	double timeStep = .00000000000001;
 	double ang = 0.0000000001;
@@ -69,7 +68,7 @@ void simulation(int numAtoms, double temperature) {
 	fout.close();
 
 	//set initial positions and velocities for atoms
-	for(double i =0; i<numOfAtoms; i++) {
+	for(double i =0; i<numAtoms; i++) {
 		atoms.push_back(Atom(39.948*1.66053892 * pow(10,-27),fmod(rand(),box),fmod(rand(),box),fmod(rand(),box),fmod(rand(),500)-250,fmod(rand(),500)-250,fmod(rand(),500)-250));
 	}
 	//ofstream fout;
@@ -78,13 +77,13 @@ void simulation(int numAtoms, double temperature) {
 	for (int i=0; i<iterations; i++ ) {
 		ePot = 0;
 		eKin = 0;
-		fout << numOfAtoms << endl;
+		fout << numAtoms << endl;
 		fout << "iteration " << i << endl;
-		for (int k=0; k<numOfAtoms; k++) {
+		for (int k=0; k<numAtoms; k++) {
 			fout<< "Argon	";
 			fout<< atoms[k].getxCoor() <<"	"<<atoms[k].getyCoor() << "	"<< atoms[k].getzCoor()<< endl;
 		}
-		for (int k=0; k<numOfAtoms; k++) { //k is the atom which is being updated
+		for (int k=0; k<numAtoms; k++) { //k is the atom which is being updated
 			//update the coordinates and make sure they are in the box
 			x= atoms[k].getxCoor() + atoms[k].getxVel()*timeStep/ang;
 			y= atoms[k].getyCoor() + atoms[k].getyVel()*timeStep/ang;
@@ -110,7 +109,7 @@ void simulation(int numAtoms, double temperature) {
 
 			atoms[k].set_Coor(x,y,z);
 			//find the minimum distance to other atoms and update vel
-			for (int l = 0; l<numOfAtoms;l++){ //l is the atom whose presence is applying force to k
+			for (int l = 0; l<numAtoms;l++){ //l is the atom whose presence is applying force to k
 				double min = 1000000000;
 				if(l != k){ //make sure they are not the same atom
 					dist = (atoms[l].getxCoor()-atoms[k].getxCoor())*(atoms[l].getxCoor()-atoms[k].getxCoor())
@@ -196,7 +195,7 @@ void simulation(int numAtoms, double temperature) {
 				}		
 																	
 			}
-			eKin += .5*atoms[k].getMass()*(sqrt(atoms[k].getxVel()*atoms[k].getxVel()+atoms[k].getyVel()*atoms[k].getyVel()+atoms[k].getzVel()*atoms[k].getzVel()));
+			eKin += .5*atoms[k].getMass()*(atoms[k].getxVel()*atoms[k].getxVel()+atoms[k].getyVel()*atoms[k].getyVel()+atoms[k].getzVel()*atoms[k].getzVel());
 
 		}
 		eTot1 = eKin + ePot;
