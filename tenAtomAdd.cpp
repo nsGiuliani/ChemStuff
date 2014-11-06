@@ -398,12 +398,27 @@ double defBox(int numAtoms,double temperature) {
 	return box;
 }
 
-void simulation2(int numAtoms, double temperature){
+void simulation2(string filename){
+
+	ifstream atom_file(filename);
+	int numAtoms;
+	atom_file >> numAtoms;
 
 	vector<Atom> atoms;
 
-	int iterations = 5000;
-	double timeStep = .00000000000001;
+	int iterations;
+	atom_file>> iterations;
+
+	double timeStep;
+	atom_file>> timeStep;
+
+	double temperature;
+	atom_file>> temperature;
+
+	double mass;
+	atom_file>> mass;
+
+	atom_file.close();
 
 	double box = defBox(numAtoms, temperature);
 	makeBox(box);
@@ -411,7 +426,7 @@ void simulation2(int numAtoms, double temperature){
 
 	//set initial positions and velocities for atoms
 	for(double i =0; i<numAtoms; i++) {
-		atoms.push_back(Atom(39.948*1.66053892 * pow(10,-27),fmod(rand(),box),fmod(rand(),box),fmod(rand(),box),fmod(rand(),500)-250,fmod(rand(),500)-250,fmod(rand(),500)-250));
+		atoms.push_back(Atom(mass*1.66053892 * pow(10,-27),fmod(rand(),box),fmod(rand(),box),fmod(rand(),box),fmod(rand(),500)-250,fmod(rand(),500)-250,fmod(rand(),500)-250));
 	}
 	for(int i = 0; i<iterations; i++) {
 		updateCoor(atoms, numAtoms, i, box, timeStep);
@@ -425,11 +440,11 @@ int main() {
 	double numberOfAtoms;
 	double temp;
 
-	cout << "Enter the number of atoms: ";
+/*	cout << "Enter the number of atoms: ";
 	cin >> numberOfAtoms;
 	cout << "Enter the temperature: ";
-	cin >> temp;
-
-	simulation2(numberOfAtoms, temp);
+	cin >> temp;*/
+	
+	simulation2("input.txt");
 	return 0;
 }
