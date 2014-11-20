@@ -274,11 +274,16 @@ void updateCoor(vector<Atom>& atoms, int numAtoms, int i, double box, double tim
 		}
 }
 
-void updateVel(vector<Atom>& atoms, int numAtoms, double box, double timeStep) {
+void updateVel(vector<Atom>& atoms, int numAtoms, double box, double timeStep, int i) {
 	double dist;
 	double dx=0.0;
 	double dy=0.0;
 	double dz=0.0;
+
+	double ePot = 0;
+	double eKin = 0;
+	double eTot1;
+	double eTot2;
 
 	double ang = 0.0000000001;
 	double E = 1.712*(.000000000000000000001);
@@ -372,10 +377,17 @@ void updateVel(vector<Atom>& atoms, int numAtoms, double box, double timeStep) {
 					y= atoms[k].getyVel() + (Fy/atoms[k].getMass())*timeStep;
 					z= atoms[k].getzVel() + (Fz/atoms[k].getMass())*timeStep;
 					atoms[k].set_Vel(x,y,z);
+					ePot += 4*E*(pow((sig/sqrt(dist)),12)-pow((sig/sqrt(dist)),6));
 				}		
-																	
+															
 			}
-		}		
+			eKin += .5*atoms[k].getMass()*(atoms[k].getxVel()*atoms[k].getxVel()+atoms[k].getyVel()*atoms[k].getyVel()+atoms[k].getzVel()*atoms[k].getzVel());		
+		}	
+		eTot1 = eKin + ePot;
+		eTot2 = (eKin + ePot)/1000*6.02*pow(10,23);
+		if (i%100 ==0) {
+			printf("%d  %4.16g        %4.16g \n",i, eTot1, eTot2);	
+		}
 }
 
 void cleanFile() {
@@ -398,6 +410,7 @@ double defBox(int numAtoms,double temperature) {
 }
 
  void simulation2(){
+	double ang = 0.0000000001;
 
 	ifstream atom_file;
 	atom_file.open("input.txt", ios::in);
@@ -412,17 +425,16 @@ double defBox(int numAtoms,double temperature) {
 	double timeStep;
 	atom_file>> timeStep;
 
-	double temperature;
-	atom_file>> temperature;
+	double box;
+	atom_file>> box;
 
 	double mass;
 	atom_file>> mass;
 
 	atom_file.close();
 
-	double box = defBox(numAtoms, temperature);
+	box /= ang; //convert to angstroms
 	makeBox(box);
-	//cleanFile();
 
 	ifstream initial_file;
 	initial_file.open("initial.txt", ios::in);
@@ -441,7 +453,7 @@ double defBox(int numAtoms,double temperature) {
 	  initial_file >> initialyVel;
 	  initial_file >> initialzVel;
 	
-	  atoms.push_back(Atom(mass*1.66053892 * pow(10,-27),initialx,initialy,initialz,initialxVel,initialyVel,initialzVel));
+	  atoms.push_back(Atom(mass,initialx/ang,initialy/ang,initialz/ang,initialxVel,initialyVel,initialzVel));
       	}
        
 	initial_file.close();	
@@ -454,7 +466,7 @@ double defBox(int numAtoms,double temperature) {
 		}*/
 	for(int i = 0; i<iterations; i++) {
 		updateCoor(atoms, numAtoms, i, box, timeStep);
-		updateVel(atoms, numAtoms, box, timeStep);
+		updateVel(atoms, numAtoms, box, timeStep, i);
 	}
 
 }
